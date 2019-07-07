@@ -10,4 +10,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: $text;
+  padding: 3rem;
+}
+
+html {
+  font-size: 62.5%;
 }
