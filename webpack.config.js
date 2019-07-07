@@ -29,6 +29,20 @@ module.exports = {
         }
       },
       {
+        test: /\.svg$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'svg-react-loader',
+          options: {
+            tag: 'symbol',
+            attrs: {
+              title: 'example',
+            },
+            name: 'Test',
+          }
+        }
+      },
+      {
         test: /\.css$/,
         use: [
           {
@@ -67,3 +81,4 @@ module.exports = {
     ]
   }
 };
+
