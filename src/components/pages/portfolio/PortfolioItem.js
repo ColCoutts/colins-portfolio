@@ -6,13 +6,11 @@ function PortfolioItem({ name, tech, image, description, links }) {
   console.log('image', image);
   let imageProps = {
     backgroundImage: 'url(' + image + ')',
-    height: '10rem'
   };
 
   return (
-    <div>
+    <div className={styles.image} style={imageProps}>
       <h2>{name}</h2>
-      <div className={styles.image} style={imageProps}></div>
       <p>{description}</p>
       <i className={tech[0]}></i>
       <i className={tech[1]}></i>

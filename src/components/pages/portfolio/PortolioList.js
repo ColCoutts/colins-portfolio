@@ -7,11 +7,9 @@ import styles from '../../display/portfolioPage.css';
 function PortfolioList({ projects }) {
   const projectListItems = projects.map(project => {
     return (
-      <div className={styles.projectCard} key={project.id}>
-        <li>
-          <PortfolioItem name={project.name} tech={project.tech} image={project.image} description={project.description} links={project.links} />
-        </li>
-      </div>
+      <li className={styles.projectCard} key={project.id}>
+        <PortfolioItem name={project.name} tech={project.tech} image={project.image} description={project.description} links={project.links} />
+      </li>
     );
   });
 
