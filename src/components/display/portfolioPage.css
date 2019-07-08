@@ -1,0 +1,23 @@
+@import url('../display/variables.css');
+
+.portfolioContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 95vh;
+  background-color: $lightgrey;
+  list-style-type: none;
+  padding-top: 2rem;
+}
+
+.projectCard {
+  height: 30rem;
+  width: 25rem;
+  background-color: $darkgrey;
+  margin: $header-side-margin;
+}
+
+.image {
+  height: 100%;
+  background-position: center;
+}
