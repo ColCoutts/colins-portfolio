@@ -15,12 +15,24 @@
   }
   
   .home {
-    margin-left: 2rem;
+    margin-left: $header-side-margin;
   }
 
   .menu {
     display: flex;
     justify-content: space-between;
-    margin-right: 2em;
+    margin-right: $header-side-margin;
     width: 8%;
+  }
+
+  .work {
+    display: flex;
+    justify-content: space-between;
+    background-color: $lightgrey;
+    padding: 0 $header-side-margin;
+
+    h1 {
+      display: inline-block;
+      font-size: 8em;
+    }
   }
