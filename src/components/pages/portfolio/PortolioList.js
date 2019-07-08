@@ -15,7 +15,9 @@ function PortfolioList({ projects }) {
 
   return (
     <ul className={styles.portfolioContainer}>
-      {projectListItems}
+      <div className={styles.listContainer}>
+        {projectListItems}
+      </div>
     </ul>
   );
 }

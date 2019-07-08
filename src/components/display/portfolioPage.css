@@ -10,6 +10,12 @@
   padding-top: 2rem;
 }
 
+.listContainer {
+  display: flex;
+  width: 82%;
+  justify-content: space-between;
+}
+
 .image {
   height: 100%;
   background-position: center;
@@ -20,5 +26,4 @@
   height: 30rem;
   width: 25rem;
   background-color: $darkgrey;
-  margin: $header-side-margin;
 }

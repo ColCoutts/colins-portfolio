@@ -29,7 +29,7 @@
     display: flex;
     justify-content: space-between;
     background-color: $lightgrey;
-    padding: $header-side-margin $header-side-margin;
+    padding: $header-side-margin $section-side-margin;
 
     h1 {
       display: inline-block;
