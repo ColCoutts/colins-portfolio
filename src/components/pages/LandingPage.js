@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from '../display/landingPage.css';
+import Greeting from '../../assets/greeting.svg';
+
 function LandingPage() {
   return ( 
     <div>
@@ -17,10 +19,14 @@ function LandingPage() {
         {/* portion for text the about me and call to action */}
         <div className={styles.greeting}>
           {/* portion will have the oh hai to be displayed as a block */}
-          <h1>
+          {/* <h1>
             Oh, <br />
             hai!
-          </h1>
+          </h1> */}
+          <Greeting
+            width={350}
+            className={styles.message}
+          />
         </div>
       </main>
 

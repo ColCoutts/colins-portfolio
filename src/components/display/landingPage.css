@@ -14,12 +14,11 @@
   height: 100%;
   width: 100%;
   align-items: center;
-    h1 {
-      font-size: 14em;
-      position: relative;
-      left: -15.3rem;
-      padding-right: 5rem;
-    }
+}
+
+.message {
+  position: relative;
+  left: -17.5rem;
 }
 
 .about {

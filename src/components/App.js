@@ -9,9 +9,9 @@ export default function App() {
     <>
       <Header />
       <LandingPage />
-      <div>
+      {/* <div>
         <TestSvg width={220} height={500}/>
-      </div>
+      </div> */}
     </>
   );
 }
