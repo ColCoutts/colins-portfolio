@@ -1,0 +1,26 @@
+@import url('./variables.css');
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+    a {
+      display: inline-block;
+      font-size: 1.7em;
+      color: $text;
+      text-decoration: none;
+    }
+
+  }
+  
+  .home {
+    margin-left: 2rem;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2em;
+    width: 8%;
+  }

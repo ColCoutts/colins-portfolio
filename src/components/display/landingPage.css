@@ -1,0 +1,39 @@
+@import url('./variables.css');
+
+.landingPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+
+  background-color: $lightgrey;
+}
+
+.greeting {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+    h1 {
+      font-size: 14em;
+      position: relative;
+      left: -15.3rem;
+      padding-right: 5rem;
+    }
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 110%;
+  background-color: $red;
+
+  p {
+    font-size: 2em;
+    line-height: 1.4;
+    color: $white;
+    padding-right: 13rem;
+  }
+}

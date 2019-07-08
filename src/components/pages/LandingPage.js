@@ -1,20 +1,21 @@
 import React from 'react';
-import styles from '../display/layout.css';
+import styles from '../display/landingPage.css';
 function LandingPage() {
   return ( 
     <div>
       {/* // outer most container for upper landing page container */}
       <main className={styles.landingPage}>
-        <div>
+        <div className={styles.about  }>
           {/* portion will have the left justified text intro  */}
           <p>
             My name is Colin: <br />
             developer, color wrangler, <br />
-            and advocate for the color beige.
+            and advocate for <br /> 
+            the color beige.
           </p>
         </div>
         {/* portion for text the about me and call to action */}
-        <div>
+        <div className={styles.greeting}>
           {/* portion will have the oh hai to be displayed as a block */}
           <h1>
             Oh, <br />
