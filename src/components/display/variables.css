@@ -2,6 +2,9 @@ $red: #DD5942;
 $text: #231F20;
 $lightgrey: #D4DCE3;
 $white: #F8F8FF;
-$darkgrey: #414042;
+$darkgrey: rgb(65, 64, 66);
+$card-grey: rgba(65, 64, 66, .5);
+$card-grey-light: rgba(65, 64, 66, .4);
 $header-side-margin: 2rem;
 $section-side-margin: 11rem;
+

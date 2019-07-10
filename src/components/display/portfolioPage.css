@@ -11,19 +11,37 @@
 }
 
 .listContainer {
+
   display: flex;
   width: 82%;
   justify-content: space-between;
 }
 
 .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100%;
+  object-fit: none;
   background-position: center;
   background-repeat: no-repeat;
+  color: $white;
+
+  
+  h2 {
+    margin-left: $header-side-margin;
+    font-size: 3em;
+    margin-bottom: 4rem;
+  }
+  
+  p {
+    margin-left: $header-side-margin;
+    font-size: 2em;
+  }
 }
 
 .projectCard {
+  background: linear-gradient(to bottom, $card-grey, $card-grey-light);
   height: 30rem;
-  width: 25rem;
-  background-color: $darkgrey;
+  width: 30rem;
 }

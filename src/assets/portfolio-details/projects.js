@@ -1,4 +1,4 @@
-import image from '../../assets/officeplaceholder.jpg';
+import image from '../../assets/therunscardrevise.jpg';
 
 export const projects = [
   {

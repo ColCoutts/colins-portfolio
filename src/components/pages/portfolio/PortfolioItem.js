@@ -6,6 +6,7 @@ function PortfolioItem({ name, tech, image, description, links }) {
   console.log('image', image);
   let imageProps = {
     backgroundImage: 'url(' + image + ')',
+    backgroundSize: '100%'
   };
 
   return (
