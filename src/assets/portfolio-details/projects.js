@@ -1,17 +1,19 @@
-import image from '../../assets/therunscardrevise.jpg';
+import image from '../../assets/therunscardrevisegradient.jpg';
+import campcard from '../../assets/campdremcardgradient.jpg';
+import pushPinCard from '../../assets/pushpincardgradient.jpg';
 
 export const projects = [
   {
     name: 'PushPin',
     tech: ['thing1', 'thing2'],
-    image: image,
+    image: pushPinCard,
     description: 'this was a good',
     links: ['someurl', 'someotherurl']
   },
   {
     name: 'Camp Drem',
     tech: ['thing1', 'thing2'],
-    image: image,
+    image: campcard,
     description: 'this was a good',
     links: ['someurl', 'someotherurl']
   },

@@ -20,22 +20,22 @@
 .image {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
   object-fit: none;
   background-position: center;
   background-repeat: no-repeat;
   color: $white;
+  padding-top: 4rem;
 
   
   h2 {
-    margin-left: $header-side-margin;
+    margin-left: 4rem;
     font-size: 3em;
     margin-bottom: 4rem;
   }
   
   p {
-    margin-left: $header-side-margin;
+    margin-left: 4rem;
     font-size: 2em;
   }
 }

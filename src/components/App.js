@@ -14,6 +14,7 @@ export default function App() {
       <LandingPage />
       <WorkHeader />
       <PortfolioList projects={projects} />
+      
       {/* <div>
         <TestSvg width={220} height={500}/>
       </div> */}
