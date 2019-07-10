@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap');
+@import url('./variables.css');
+
+.aboutContainer {
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  background-color: $darkgrey;
+  font-size: 2em;
+  color: $white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+.main {
+  align-self: center;
+  width: 30vw;
+}
+
+.sideCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.side {
+  width: 30vw;
+}
