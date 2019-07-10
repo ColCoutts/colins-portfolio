@@ -13,10 +13,12 @@ function PortfolioItem({ name, tech, image, description, links }) {
     <div className={styles.image} style={imageProps}>
       <h2>{name}</h2>
       <p>{description}</p>
-      <i className={tech[0]}></i>
-      <i className={tech[1]}></i>
-      <a href={links[0]}/>
-      <a href={links[1]}/>
+      <i className={tech[0]}>THING1</i>
+      <i className={tech[1]}>THING2</i>
+      <nav className={styles.navlinks}>
+        <a href={links[0]}>info</a>
+        <a href={links[1]}>site</a>
+      </nav>
     </div>
   );
 }

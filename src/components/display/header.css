@@ -30,7 +30,8 @@
     display: flex;
     justify-content: space-between;
     background-color: $lightgrey;
-    padding: $header-side-margin $section-side-margin;
+    padding: 0 $section-side-margin;
+    padding-top: 4rem;
 
     h1 {
       display: inline-block;
@@ -42,7 +43,8 @@
     display: flex;
     justify-content: space-between;
     background-color: $darkgrey;
-    padding: $header-side-margin $section-side-margin;
+    padding: 0 $section-side-margin;
+    padding-top: 4rem;
 
     h1 {
       color: $white;
