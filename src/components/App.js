@@ -8,6 +8,8 @@ import { projects } from '../assets/portfolio-details/projects';
 import PortfolioList from './pages/portfolio/PortolioList';
 import InfoHeader from './pages/InfoHeader';
 import AboutPage from './pages/AboutPage';
+import Footer from './pages/Footer';
+
 
 export default function App() {
   return (
@@ -18,6 +20,7 @@ export default function App() {
       <PortfolioList projects={projects} />
       <InfoHeader />
       <AboutPage />
+      <Footer />
     </>
   );
 }
