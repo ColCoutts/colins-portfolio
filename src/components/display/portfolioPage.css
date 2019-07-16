@@ -37,6 +37,15 @@
   p {
     margin-left: 4rem;
     font-size: 1.5em;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    margin-left: 3.5rem;
+    font-size: 1.25em;
+    font-weight: 400;
+    padding: .5rem;
+  
   }
 }
 

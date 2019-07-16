@@ -3,15 +3,15 @@ import styles from '../display/header.css';
 
 function Header() {
   return (
-    <nav className={styles.nav}>
+    <header className={styles.nav}>
       <div className={styles.home}>
-        <a href=''>Colin</a>
+        <a href='#landing_page'>Colin</a>
       </div>
-      <div className={styles.menu}>
-        <a href=''>work</a>
-        <a href=''>info</a>
-      </div>
-    </nav>
+      <nav className={styles.menu}>
+        <a href='#work'>work</a>
+        <a href='#info'>info</a>
+      </nav>
+    </header>
   );
 }
 

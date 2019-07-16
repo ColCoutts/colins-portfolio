@@ -8,7 +8,7 @@ function PortfolioList({ projects }) {
   const projectListItems = projects.map(project => {
     return (
       <li className={styles.projectCard} key={project.id}>
-        <PortfolioItem name={project.name} tech={project.tech} image={project.image} description={project.description} links={project.links} />
+        <PortfolioItem name={project.name} tech={project.tech} image={project.image} description={project.description} links={project.links} userName={project.userName} passWord={project.passWord} />
       </li>
     );
   });

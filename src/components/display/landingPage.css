@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   height: 95vh;
+  margin-top: 1rem;
 
   background-color: $lightgrey;
 }
@@ -28,10 +29,10 @@
   height: 100%;
   width: 110%;
   background-color: $red;
-
+  
   p {
     font-size: 2em;
-    line-height: 1.4;
+    line-height: 2;
     color: $white;
     padding-right: 13rem;
   }
