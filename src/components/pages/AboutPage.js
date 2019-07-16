@@ -6,7 +6,7 @@ function AboutPage() {
     <section className={styles.aboutContainer}>
       <div className={styles.main}>
         <h2>Bio</h2>
-        <p>Originally hailing from Chicago, I've spent the last few years executing projects for clients ranging from apparel to augmented reality. My passion for programming was born from a desire to not only continue to grow my skillset as a designer but to also transition into a field where I felt I could use my background to solve human related problems through tech. When I'm not tapping away at the computer, one can generally find me taking a bike ride, reading a book, or sketching in a coffee shop.</p>
+        <p>Originally hailing from Chicago, I&apos;ve spent the last few years executing projects for clients ranging from apparel to augmented reality. My passion for programming was born from a desire to not only continue to grow my skillset as a designer but to also transition into a field where I felt I could use my background to solve human related problems through tech. When I&apos;m not tapping away at the computer, one can generally find me taking a bike ride, reading a book, or sketching in a coffee shop.</p>
       </div>
       <div className={styles.sideCol}>
         <div className={styles.side}>
