@@ -20,6 +20,7 @@ function AboutPage() {
             - API Integration <br />
             - Express.js/MongoDB <br />
             - Jest/Enzyme/QUnit <br />
+            - Heroku/Netlify Hosting <br />
           </p>
         </div>
         <div className={styles.side}>
@@ -35,7 +36,7 @@ function AboutPage() {
             - Marketing <br />
             - Interactive Design <br />
             - Adobe Suite <br />
-            - Adobe Suite <br />
+            - Sketch <br />
           </p>
         </div>
       </div>
