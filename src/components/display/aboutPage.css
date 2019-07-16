@@ -3,8 +3,8 @@
 
 .aboutContainer {
   display: flex;
-  height: 100vh;
-  justify-content: space-evenly;
+  height: 110vh;
+  justify-content: space-around;
   background-color: $darkgrey;
   font-size: 2em;
   color: $white;
@@ -15,14 +15,34 @@
 .main {
   align-self: center;
   width: 30vw;
+  
+  h2 {
+    margin-bottom: 1rem;
+    letter-spacing: .25ch;
+  }
+
+  p {
+    font-size: .9em;
+    line-height: 1.5;
+  }
 }
 
 .sideCol {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .side {
   width: 30vw;
+
+  h2 {
+    margin-bottom: 1rem;
+    letter-spacing: .25ch;
+  }
+
+  p {
+    font-size: .8em;
+    line-height: 1.5;
+  }
 }
