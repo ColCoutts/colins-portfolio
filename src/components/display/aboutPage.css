@@ -59,3 +59,16 @@
     font-weight: 300;
   }
 }
+
+@media (max-width: 414px) {
+  .aboutContainer {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    background-color: $darkgrey;
+    font-size: 1em;
+    color: $white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+  }
+}

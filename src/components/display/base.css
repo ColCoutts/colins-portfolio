@@ -28,3 +28,14 @@ html {
     padding: 0rem;
   }
 }
+
+@media (max-width: 414px) {
+  * {
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  body {
+    padding: 0rem;
+  }
+}

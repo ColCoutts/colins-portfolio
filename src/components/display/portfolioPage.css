@@ -129,3 +129,65 @@
   }
   
 }
+
+@media (max-width: 414px) {
+
+  .portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100%;
+    background-color: $lightgrey;
+    list-style-type: none;
+    padding-top: 0rem;
+  }
+
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  
+  }
+
+  .image {
+    height: 100%;
+    object-fit: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: $white;
+    padding-top: 7rem;
+  
+    
+    h2 {
+      margin-left: 3.5rem;
+      font-size: 2em;
+      margin-bottom: 0rem;
+    }
+    
+    p {
+      margin-left: 3.5rem;
+      font-size: 1.5em;
+      margin-bottom: 1rem;
+    }
+  
+    h3 {
+      margin-left: 3.5rem;
+      font-size: 1em;
+      font-weight: 400;
+      padding: .5rem;
+    }
+
+  }
+  
+  .projectCard {
+    background: linear-gradient(to bottom, $card-grey, $card-grey-light);
+    height: 25rem;
+    width: 25rem;
+    margin: 2rem;
+  }
+  
+}
