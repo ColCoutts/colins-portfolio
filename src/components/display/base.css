@@ -17,3 +17,14 @@ body {
 html {
   font-size: 62.5%;
 }
+
+@media (max-width: 320px) {
+  * {
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  body {
+    padding: 0rem;
+  }
+}

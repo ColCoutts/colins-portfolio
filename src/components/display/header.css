@@ -57,3 +57,55 @@
       font-size: 8em;
     }
   }
+
+  @media (max-width: 320px) {
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      align-items: center;
+      width: 100vw;
+      top: 0px;
+      background-color: $lightgrey;
+      height: 4rem;
+      z-index: 10;
+
+      a {
+        display: inline-block;
+        font-size: 1.3em;
+        color: $text;
+        text-decoration: none;
+        position: relative;
+      }
+    }
+
+    .menu {
+      width: 30vw;
+    }
+
+    .work {
+      display: flex;
+      justify-content: space-between;
+      background-color: $lightgrey;
+      padding: 2rem 1rem;
+  
+      h1 {
+        display: inline-block;
+        font-size: 4em;
+      }
+    }
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      background-color: $darkgrey;
+      padding: 2rem 1rem;
+  
+      h1 {
+        color: $white;
+        display: inline-block;
+        font-size: 4em;
+      }
+    }
+  
+  }
