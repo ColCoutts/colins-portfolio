@@ -71,4 +71,33 @@
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
   }
+
+  .main {
+    align-self: center;
+    width: 40vw;
+    
+    h2 {
+      margin-bottom: 1rem;
+      letter-spacing: .25ch;
+    }
+  
+    p {
+      font-size: .9em;
+      line-height: 1.5;
+    }
+  }
+
+  .side {
+    width: 35vw;
+  
+    h2 {
+      margin-bottom: 1rem;
+      letter-spacing: .25ch;
+    }
+  
+    p {
+      font-size: .8em;
+      line-height: 1.5;
+    }
+  }
 }
